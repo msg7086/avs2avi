@@ -911,9 +911,9 @@ bool AVIOutputFile::_extendFile(__int64 i64NewPoint) {
 }
 
 void AVIOutputFile::_write(void *data, int len) {
-
-	if (!fPreemptiveExtendFailed && i64FilePosition + len + lIndexSize > i64EndOfFile - 8388608) {
-		fPreemptiveExtendFailed = !_extendFile((i64FilePosition + len + lIndexSize + 16777215) & -8388608);
+	__int64 block_size = 0x8000000L; // 128M block
+	if (!fPreemptiveExtendFailed && i64FilePosition + len + lIndexSize > i64EndOfFile - block_size) {
+		fPreemptiveExtendFailed = !_extendFile((i64FilePosition + len + lIndexSize + block_size * 2) & -block_size);
 	}
 
 	if (fastIO) {
