@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="VirtualDub">
+      <UniqueIdentifier>{07eec35f-d6db-44bd-8f46-cd8f31c84219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VirtualDub\Source">
+      <UniqueIdentifier>{3d09f1c1-7c61-4b21-83ce-3c379714cc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VirtualDub\Headers">
+      <UniqueIdentifier>{335b975c-ac53-4a46-895d-c23075a9d151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="avs2avi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputAvi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputLog.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\AVIIndex.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\AVIOutput.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\cpuaccel.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\Disasm.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\Error.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\FastWriteStream.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\memcheck.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\misc.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\oshelper.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\tls.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDub\wrappedMMIO.cpp">
+      <Filter>VirtualDub\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OutputAvi.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputFormat.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputLog.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputNull.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\AudioSource.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\AVIIndex.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\AVIOutput.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\cpuaccel.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\disasm.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\Error.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\FastWriteStream.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\Fixes.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\helpfile.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\misc.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\oshelper.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\resource.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\tls.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\VideoSource.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\VirtualDub.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDub\wrappedMMIO.h">
+      <Filter>VirtualDub\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
